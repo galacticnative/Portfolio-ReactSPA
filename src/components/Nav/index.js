@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 //import { capitalizeFirstLetter } from '../../utils/helpers';
+import Resume from '../../assets/resume2020.pdf'
 
 function Nav() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -21,6 +22,9 @@ function Nav() {
             <a href="#contact-form" onClick={() => setContactSelected(false)}>
               Contact Me
             </a>
+          </li>
+          <li>
+            <a target="_blank" rel='noopener noreferrer' href= {Resume}>Resume</a>
           </li>
         </ul>
       </nav>

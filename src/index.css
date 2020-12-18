@@ -8,7 +8,6 @@ body {
 
 header {
   padding: 20px 35px;
-  background-color: #dca1f5;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,11 +37,11 @@ header nav ul {
 header nav ul li a {
   padding: 10px 20px;
   text-decoration: none;
-  color: black;
+  color: #dca1f5;;
 }
 
 header nav ul li a:hover {
-  background: black;
+  background: #dca1f5;
   color: lavenderblush;
   border-radius: 15px;
   opacity: 0.75;
@@ -117,6 +116,40 @@ header nav ul li a:hover {
   font-size: 24px;
   margin: 8px 24px;
   padding: 10px 20px;
+}
+
+.contact-box {
+  color: white;
+  display: block;
+}
+
+.contact-box h1 {
+  display: block;
+}
+
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
 }
 
 .work {
