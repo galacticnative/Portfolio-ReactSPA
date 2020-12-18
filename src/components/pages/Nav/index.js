@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 //import { capitalizeFirstLetter } from '../../utils/helpers';
-import Resume from '../../assets/resume2020.pdf'
+import Resume from '../../../assets/resume2020.jpg'
 
 function Nav() {
   const [contactSelected, setContactSelected] = useState(false);

@@ -47,6 +47,10 @@ header nav ul li a:hover {
   opacity: 0.75;
 }
 
+.homepage {
+  color: white;
+}
+
 .hero {
   background-image: url("../src/assets/images/hero-outerspace.jpg");
   background-size: cover;
