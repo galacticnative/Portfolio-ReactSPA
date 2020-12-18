@@ -5,8 +5,8 @@ function Project() {
         
         <div>
             <section>
-            <div id="work" className="work">
-                <h2>Work</h2>
+            <div id="work" className={`work projects`}>
+                <h2>My Projects</h2>
                 <div className="work-grid-wrapper">
                     <div className="work-grid-container">
                         <div className="work-grid-item box2 readme-img">

@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
 
     return (
-        <footer>
+        <footer className="contact-me">
             <div>
                 <a target="_blank" rel='noopener noreferrer' href="https://www.github.com/galacticnative/">GitHub</a>
             </div>
