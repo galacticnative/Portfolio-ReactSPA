@@ -5,7 +5,7 @@ function Project() {
         
         <div>
             <section>
-            <div id="work" className={`work projects`}>
+            <div id="work" className="work">
                 <h2>My Projects</h2>
                 <div className="work-grid-wrapper">
                     <div className="work-grid-container">

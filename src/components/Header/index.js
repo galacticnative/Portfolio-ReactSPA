@@ -4,7 +4,7 @@ import React from 'react';
 function NavTabs(props) {
   const tabs = ['Projects', 'About', 'Contact', 'Resume'];
   return (
-    <ul className={`nav nav-tabs hero`}>
+    <ul className={`nav nav-tabs hero header`}>
       {tabs.map(tab => (
         <li className="nav-item" key={tab}>
           <a

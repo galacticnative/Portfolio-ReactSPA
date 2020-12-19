@@ -6,41 +6,46 @@ body {
   background: black;
 }
 
-header {
+.nav.nav-tabs.header {
   padding: 20px 35px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 8px 0;
+  flex-flow: row;
 }
 
-header h1 {
+/* .nav.nav-tabs.header h1 {
   font-weight: bold;
   font-size: 48px;
   margin: 8px 0;
-}
+} */
 
-header nav {
+/* .header nav {
   font-size: 28px;
   margin: 8px 0;
-}
+} */
 
-header nav ul {
+ /* used to be header nav ul */
+.nav.nav-tabs.header ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
 
 /* took away default hyperlink style */
-header nav ul li a {
+.nav.nav-tabs ul li a {
   padding: 10px 20px;
   text-decoration: none;
-  color: #dca1f5;;
+  color: #dca1f5;
 }
 
-header nav ul li a:hover {
+.nav.header ul li a:hover {
   background: #dca1f5;
   color: lavenderblush;
   border-radius: 15px;
@@ -61,7 +66,6 @@ header nav ul li a:hover {
   align-items: flex-start;
   height: 200px;
   width: 100%;
-  color: white;
 }
 
 .about-me {

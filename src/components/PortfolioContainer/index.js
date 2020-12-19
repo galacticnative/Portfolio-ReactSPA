@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import NavTabs from '../NavTabs/index.js'
+import NavTabs from '../Header/index.js'
 import Home from '../pages/Home'
-//import Header from '../pages/Header';
 import Project from '../pages/Project';
 import About from '../pages/About';
 import ContactForm from '../pages/Contact'
@@ -16,9 +15,9 @@ function Portfolio() {
         switch (currentPage) {
             case 'About':
                 return <About />;
-            case 'Project':
+            case 'Projects':
                 return <Project />;
-            case 'ContactForm':
+            case 'Contact Me':
                 return <ContactForm />;
             default:
                 return <Home />;
