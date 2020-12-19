@@ -16,7 +16,7 @@ GitClone the repo and in the command line type "npm i" to download the packages 
 ## Usage 
 To view and interact with the deployed app via GitHub pages, click the following link:
 
-## https://galacticnative.github.io/portfolio-reactspa 
+## https://galacticnative.github.io/portfolio-reactspa/
 
 ![picture](./portreactspa.jpg)
     
