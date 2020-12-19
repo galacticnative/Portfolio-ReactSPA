@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-reactspa/static/css/main.234f4147.chunk.css",
+    "main.js": "/portfolio-reactspa/static/js/main.019d73f2.chunk.js",
+    "main.js.map": "/portfolio-reactspa/static/js/main.019d73f2.chunk.js.map",
+    "runtime-main.js": "/portfolio-reactspa/static/js/runtime-main.c0237e2d.js",
+    "runtime-main.js.map": "/portfolio-reactspa/static/js/runtime-main.c0237e2d.js.map",
+    "static/js/2.411e874a.chunk.js": "/portfolio-reactspa/static/js/2.411e874a.chunk.js",
+    "static/js/2.411e874a.chunk.js.map": "/portfolio-reactspa/static/js/2.411e874a.chunk.js.map",
+    "static/js/3.82e084b8.chunk.js": "/portfolio-reactspa/static/js/3.82e084b8.chunk.js",
+    "static/js/3.82e084b8.chunk.js.map": "/portfolio-reactspa/static/js/3.82e084b8.chunk.js.map",
+    "index.html": "/portfolio-reactspa/index.html",
+    "static/css/main.234f4147.chunk.css.map": "/portfolio-reactspa/static/css/main.234f4147.chunk.css.map",
+    "static/js/2.411e874a.chunk.js.LICENSE.txt": "/portfolio-reactspa/static/js/2.411e874a.chunk.js.LICENSE.txt",
+    "static/media/cover-image.dff80a75.jpg": "/portfolio-reactspa/static/media/cover-image.dff80a75.jpg",
+    "static/media/index.css": "/portfolio-reactspa/static/media/weather.41733040.jpg",
+    "static/media/resume2020.3a59bd6c.pdf": "/portfolio-reactspa/static/media/resume2020.3a59bd6c.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0237e2d.js",
+    "static/js/2.411e874a.chunk.js",
+    "static/css/main.234f4147.chunk.css",
+    "static/js/main.019d73f2.chunk.js"
+  ]
+}
