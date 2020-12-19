@@ -1,14 +1,14 @@
 import React from 'react';
-import Resume from '../../../assets/images/resume2020.jpg'
+import ResumeImg from '../../../assets/images/resume2020.jpg'
 
-function Resume() {
+function ResumeFile() {
 
     return (
         <div id="resume">
             <h3>My Resume</h3>
-            <img src={Resume} style={{ width: '36rem' }}></img>
+            <img src={ResumeImg} style={{ width: '36rem' }} alt="image-resume"></img>
         </div>
     );
 }
 
-export default Resume;
+export default ResumeFile;

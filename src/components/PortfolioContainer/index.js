@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import NavTabs from '../Header/index.js'
-import Home from '../pages/Home'
+import NavTabs from '../Header/index.js';
+import Home from '../pages/Home';
 import Project from '../pages/Project';
 import About from '../pages/About';
-import ContactForm from '../pages/Contact'
-import Footer from '../pages/Footer'; 
+import ContactForm from '../pages/Contact';
+import Footer from '../pages/Footer';
+import Resume from '../pages/Resume' 
 
 function Portfolio() {
 
@@ -17,8 +18,10 @@ function Portfolio() {
                 return <About />;
             case 'Projects':
                 return <Project />;
-            case 'Contact Me':
+            case 'Contact':
                 return <ContactForm />;
+            case 'Resume':
+                return <Resume />
             default:
                 return <Home />;
         }
