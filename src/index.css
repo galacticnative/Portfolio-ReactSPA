@@ -116,6 +116,10 @@ ul {
   display: block;
 }
 
+.contact-form {
+  line-height: 1rem;
+}
+
 .resume {
   color: white;
   text-align: center;

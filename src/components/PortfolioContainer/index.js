@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import NavTabs from '../Header/index.js';
-import Home from '../pages/Home';
+import NavTabs from '../Header/index.js'; 
 import Project from '../pages/Project';
 import About from '../pages/About';
 import ContactForm from '../pages/Contact';
@@ -9,7 +8,7 @@ import Resume from '../pages/Resume'
 
 function Portfolio() {
 
-    const [currentPage, handlePageChange] = useState('Home');
+    const [currentPage, handlePageChange] = useState('About');
 
     // The renderPage method uses a switch statement to render the appropriate current page
     const renderPage = () => {
@@ -23,7 +22,7 @@ function Portfolio() {
             case 'Resume':
                 return <Resume />
             default:
-                return <Home />;
+                return <About />;
         }
     };
 
