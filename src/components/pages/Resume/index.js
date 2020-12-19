@@ -1,13 +1,21 @@
 import React from 'react';
-import ResumeImg from '../../../assets/images/resume2020.jpg'
+import Resume from '../../../assets/resume2020.pdf'
 
 function ResumeFile() {
 
     return (
-        <div id="resume">
+        <div id="resume" className="resume">
             <h3>My Resume</h3>
-            <img src={ResumeImg} style={{ width: '36rem' }} alt="image-resume"></img>
+            
+            <a target="_blank" rel="noopener noreferrer" href={Resume}>Click here to view:</a>
+            <div>
+            <br />
+            <br />
+            <br />
+            <br />
+            </div>
         </div>
+        
     );
 }
 
