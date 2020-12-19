@@ -6,43 +6,35 @@ body {
   background: black;
 }
 
-.nav.nav-tabs.header {
-  padding: 20px 35px;
+.hero {
+  background-image: url("../src/assets/images/hero-outerspace.jpg");
+  background-size: cover;
+  background-position: center;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
-  font-weight: bold;
-  font-size: 36px;
-  margin: 8px 0;
-  flex-flow: row;
+  align-items: center;
+  height: 200px;
+  width: 100%;
 }
 
-/* .nav.nav-tabs.header h1 {
-  font-weight: bold;
-  font-size: 48px;
-  margin: 8px 0;
-} */
+.homepage {
+  color: white;
+}
 
-/* .header nav {
-  font-size: 28px;
-  margin: 8px 0;
-} */
-
- /* used to be header nav ul */
-.nav.nav-tabs.header ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+ul {
   list-style: none;
+  display: flex;
 }
 
-/* took away default hyperlink style */
-.nav.nav-tabs ul li a {
-  padding: 10px 20px;
+.nav-tabs li {
+  justify-content: space-evenly;
+  padding-left: 15px;
+}
+
+.nav-item a {
   text-decoration: none;
-  color: #dca1f5;
+  color: white;
+  font-size: 24px;
 }
 
 .nav.header ul li a:hover {
@@ -50,23 +42,7 @@ body {
   color: lavenderblush;
   border-radius: 15px;
   opacity: 0.75;
-}
-
-.homepage {
-  color: white;
-}
-
-.hero {
-  background-image: url("../src/assets/images/hero-outerspace.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  height: 200px;
-  width: 100%;
-}
+} */
 
 .about-me {
   color: white;
