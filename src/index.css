@@ -17,6 +17,10 @@ body {
   width: 100%;
 }
 
+.hero h1 {
+  color: violet;
+}
+
 .homepage {
   color: white;
   text-align: center;

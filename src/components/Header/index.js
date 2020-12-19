@@ -6,6 +6,7 @@ function NavTabs(props) {
   
   return (
     <div className="hero">
+      <h1>brandicurley</h1>
       <ul className={`nav nav-tabs`}>
         {tabs.map(tab => (
           <li className="nav-item" key={tab}>
