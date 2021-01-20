@@ -34,9 +34,9 @@ function Project() {
                             </a>
                         </div>
                         <div className="work-grid-item box6 preserve-img">
-                            <a id="box6-header" rel='noopener noreferrer' target="_blank" href="https://infinite-bastion-17106.herokuapp.com/ " style={{textDecoration: `none`}}>
-                            <h3>Group Project2</h3>
-                            <h4>Interactive Full-Stack</h4>
+                            <a id="box6-header" rel='noopener noreferrer' target="_blank" href="https://warm-hollows-89365.herokuapp.com/" style={{textDecoration: `none`}}>
+                            <h3>Group Project</h3>
+                            <h4>MERN App</h4>
                             </a>
                         </div>
                         <div className="work-grid-item box7 teamprofile-img">
